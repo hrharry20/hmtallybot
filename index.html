@@ -20,7 +20,7 @@
 <body>
 <header><img src="icon.png" alt="HM Tally Bot icon"><h1>HM Tally Bot</h1><p>Privacy Policy · HS Software Solutions</p></header>
 <main>
-<p><b>Effective date:</b> 29 October 2026</p>
+<p><b>Effective date:</b> 29 October 2026 (updated 29 October 2026: Accessibility features)</p>
 <p>HM Tally Bot ("the app") is published by <b>HS Software Solutions</b> (Harbansh Singh), India. It shows the Tally accounting data of your own companies on your phone — ledgers, outstanding, balance sheet, profit &amp; loss, stock and vouchers — and can answer your parties on WhatsApp with their statements and bills. This policy explains what the app uses, why, and your choices.</p>
 
 <p class="note">In short: your accounting data stays in <b>your own Google Drive</b> and on <b>your phone</b>. We, the developer, never receive it. We only keep your name, email and trial dates to manage your licence.</p>
@@ -46,8 +46,13 @@
 <p>We do not sell or share your data with third parties. Statements, bills and messages are sent only to the WhatsApp contacts of your own parties, as a result of your settings or your taps. Data moves between the app and Google over encrypted HTTPS connections. Google's own privacy policy applies to Google Sign-In, Drive and Sheets.</p>
 
 <h2>4. Accessibility Service disclosure</h2>
-<p>HM Tally Bot uses Android's AccessibilityService API for one optional feature, <b>Auto-send</b>. When you turn it on, and only right after the app itself has opened a WhatsApp chat to send a statement, bill or message you asked for (or that your auto-reply bot prepared), the app checks that the chat on screen is the intended party and presses WhatsApp's <b>Send</b> button for you. It also reads the name shown at the top of the WhatsApp chat you have open, so the floating share bubble can pick the right party.</p>
-<p>It does not read your messages or your other apps, does not record what is on screen, and sends nothing to us or anyone else. The feature is off by default, you switch it on yourself in Android Settings → Accessibility, and you can switch it off at any time. Everything else in the app works without it (you then press Send yourself).</p>
+<p>HM Tally Bot uses Android's AccessibilityService API for optional WhatsApp features:</p>
+<ul>
+<li><b>Auto-send</b> — only right after the app itself has opened a WhatsApp chat to send a statement, bill or message you asked for (or that your auto-reply bot prepared), it checks that the chat on screen is the intended party and presses WhatsApp's <b>Send</b> button for you.</li>
+<li><b>Reply in the open chat</b> — WhatsApp shows no notification for the chat you have open, so the bot reads the newest message that arrives at the bottom of that chat, and the chat's name, to answer it the same way it answers notifications.</li>
+<li><b>Bubble</b> — it notes only which app is in front, so the floating share bubble appears over WhatsApp and hides in other apps.</li>
+</ul>
+<p>It does not read older messages, other chats or the screens of other apps, does not record your screen, and sends nothing to us or anyone else; everything is processed on the phone. The feature is off by default: the app explains it and you switch it on yourself in Android Settings → Accessibility, and you can switch it off at any time. Everything else in the app works without it (you then press Send yourself).</p>
 
 <h2>5. Retention and deletion</h2>
 <ul>
