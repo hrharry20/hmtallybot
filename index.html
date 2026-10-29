@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>HM Tally Bot – Privacy Policy</title>
+<style>
+  body{margin:0;font:16px/1.65 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;background:#f3f7fb;color:#0b2545}
+  header{background:linear-gradient(135deg,#071a33,#1f5a8c);color:#fff;padding:40px 20px;text-align:center}
+  header img{width:84px;height:84px;border-radius:20px;box-shadow:0 10px 30px rgba(0,0,0,.35)}
+  header h1{margin:12px 0 4px;font-size:30px} header p{margin:0;opacity:.85}
+  main{max-width:800px;margin:-26px auto 40px;background:#fff;border-radius:16px;padding:28px 32px;box-shadow:0 10px 40px rgba(15,52,96,.12)}
+  h2{color:#1f4f78;font-size:20px;margin-top:28px} a{color:#0e7490} li{margin:4px 0}
+  table{border-collapse:collapse;width:100%;font-size:14.5px} td,th{border:1px solid #d5e2ef;padding:8px;vertical-align:top;text-align:left} th{background:#eef5fb}
+  .note{background:#ecfdf5;border-left:4px solid #0e9f7a;padding:10px 14px;border-radius:8px}
+  footer{text-align:center;color:#5b7088;font-size:14px;padding:0 20px 30px}
+  @media (max-width:600px){main{margin:-20px 12px 30px;padding:20px 18px}}
+</style>
+</head>
+<body>
+<header><img src="icon.png" alt="HM Tally Bot icon"><h1>HM Tally Bot</h1><p>Privacy Policy · HS Software Solutions</p></header>
+<main>
+<p><b>Effective date:</b> 29 October 2026</p>
+<p>HM Tally Bot ("the app") is published by <b>HS Software Solutions</b> (Harbansh Singh), India. It shows the Tally accounting data of your own companies on your phone — ledgers, outstanding, balance sheet, profit &amp; loss, stock and vouchers — and can answer your parties on WhatsApp with their statements and bills. This policy explains what the app uses, why, and your choices.</p>
+
+<p class="note">In short: your accounting data stays in <b>your own Google Drive</b> and on <b>your phone</b>. We, the developer, never receive it. We only keep your name, email and trial dates to manage your licence.</p>
+
+<h2>1. Information we collect</h2>
+<table>
+<tr><th>Data</th><th>Why</th><th>Where it is kept</th></tr>
+<tr><td>Name, email address, profile photo link, Google account ID (from Google Sign-In)</td><td>To create your account, run the free trial and licence, and show your profile in the app</td><td>The developer's licence register (a Google Sheet operated by HS Software Solutions)</td></tr>
+<tr><td>Sign-up date, trial dates, plan, last sign-in time and sign-in count</td><td>Licence and trial management, preventing trial abuse</td><td>Same licence register</td></tr>
+</table>
+<p>We do not collect location, advertising IDs, browsing history, or payment card details, and the app shows no ads.</p>
+
+<h2>2. Data that stays on your device or in your Google account</h2>
+<ul>
+<li><b>Your company data</b> (ledgers, vouchers, stock, balances, party mobile numbers): read from the Google Sheets that the HM Tally / Web ERP desktop software keeps in the <i>TallyERPWeb</i> folder of <b>your</b> Google Drive, and cached on your phone so reports open instantly and work offline. The app uses the limited <code>drive.file</code> permission, so it can only see files created by our software or opened with it — not the rest of your Drive. If you edit a master (for example a party's mobile number) in the app, that change is written back to your own sheet.</li>
+<li><b>WhatsApp messages (notification access, optional):</b> when you turn on the WhatsApp auto-reply bot, the app reads incoming WhatsApp notifications on your phone to recognise requests such as "statement" or "outstanding" from your saved parties and reply to them. Messages are processed only on the phone; a short activity log (who asked what) is kept on the phone. Nothing is sent to us.</li>
+<li><b>Contacts (optional):</b> used on the phone only, to match a WhatsApp sender shown by name to the mobile number on their ledger. Contacts are never uploaded.</li>
+<li><b>Accessibility service (optional, "Auto-send"):</b> see section 4.</li>
+<li><b>PDF statements and bills</b> are generated on the phone. When your phone is locked and a PDF cannot be attached in WhatsApp, the app uploads that PDF to a folder named <i>HM Tally Bot shared</i> in <b>your</b> Google Drive, sets it to "anyone with the link can view" and sends the link to the party who asked. You can delete these files from your Drive at any time.</li>
+</ul>
+
+<h2>3. How data is shared</h2>
+<p>We do not sell or share your data with third parties. Statements, bills and messages are sent only to the WhatsApp contacts of your own parties, as a result of your settings or your taps. Data moves between the app and Google over encrypted HTTPS connections. Google's own privacy policy applies to Google Sign-In, Drive and Sheets.</p>
+
+<h2>4. Accessibility Service disclosure</h2>
+<p>HM Tally Bot uses Android's AccessibilityService API for one optional feature, <b>Auto-send</b>. When you turn it on, and only right after the app itself has opened a WhatsApp chat to send a statement, bill or message you asked for (or that your auto-reply bot prepared), the app checks that the chat on screen is the intended party and presses WhatsApp's <b>Send</b> button for you. It also reads the name shown at the top of the WhatsApp chat you have open, so the floating share bubble can pick the right party.</p>
+<p>It does not read your messages or your other apps, does not record what is on screen, and sends nothing to us or anyone else. The feature is off by default, you switch it on yourself in Android Settings → Accessibility, and you can switch it off at any time. Everything else in the app works without it (you then press Send yourself).</p>
+
+<h2>5. Retention and deletion</h2>
+<ul>
+<li>You can delete your account inside the app: <b>Settings → Account → Delete account</b>. This removes your name, photo and Google ID from our register, revokes the app's Google access and deletes every company copy cached on the phone.</li>
+<li>Or request deletion on the web: <a href="delete-account.html">Delete account page</a>. We act within 7 days.</li>
+<li>We keep only your email address and trial dates for up to 3 years after deletion, solely to prevent the free trial being restarted.</li>
+<li>Your Tally company sheets in your own Google Drive are yours; the app never deletes them. Uninstalling the app removes all data stored on the phone.</li>
+<li>You can also remove the app's Google access at <a href="https://myaccount.google.com/permissions">myaccount.google.com/permissions</a>.</li>
+</ul>
+
+<h2>6. Children</h2>
+<p>The app is a business tool for adults (18+) and is not directed at children.</p>
+
+<h2>7. Changes</h2>
+<p>We may update this policy; the effective date above will change and significant changes will be shown in the app.</p>
+
+<h2>8. Contact</h2>
+<p>HS Software Solutions — Harbansh Singh<br>Email: <a href="mailto:hrharry20@gmail.com">hrharry20@gmail.com</a> · WhatsApp / phone: +91 86301 56588</p>
+</main>
+<footer>© 2026 HS Software Solutions · <a href="delete-account.html">Delete account</a></footer>
+</body>
+</html>
